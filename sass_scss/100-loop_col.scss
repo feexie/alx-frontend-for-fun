@@ -1,6 +1,7 @@
-/* Columns and operators */
-@for $i from 1 through 4 {
-  .col-#{$i} {
-    width: nth(100% 50% 33.3333333333% 25%, $i);
+/* Creates classes with different width */
+
+@for $item from 1 through 4 {
+    .col-#{$item} {
+      width: 100% / $item;
+    }
   }
-}
