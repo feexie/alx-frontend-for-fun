@@ -1,9 +1,12 @@
 // Sass file
-$color-0: #FF0000;
-$color-1: #00FF00;
+
+$color-0: #FF0000; // Initial text color for button
+$color-1: #00FF00; // Text color on hover
+
 button {
-  color: $color-0;
+  color: $color-0; // Use variable for initial color
+
   &:hover {
-    color: $color-1;
+    color: $color-1; // Use variable for hover color
   }
 }
